@@ -138,13 +138,16 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="obj_loader.cpp" />
     <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Benchmarker.h" />
     <ClInclude Include="glad.h" />
     <ClInclude Include="khrplatform.h" />
     <ClInclude Include="obj_loader.h" />
+    <ClInclude Include="stb_image_write.h" />
     <ClInclude Include="Timer.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
